@@ -1,28 +1,70 @@
 {
   "Global": {
-    "By Type": {
-      "Sub-Normothermic Perfusion (20–34°C)": {},
-      "Warm or Normothermic Perfusion (35–37°C)": {}
+    "By Component": {
+      "Solutions / Platforms": {
+        "Compliance Management Software": {},
+        "Policy Management Software": {},
+        "Risk & Control Management Software": {},
+        "Audit Management Software": {},
+        "Regulatory Change Management Software": {},
+        "Reporting & Analytics Software": {},
+        "Third-Party / Vendor Compliance Software": {},
+        "Documentation & Evidence Management Software": {},
+        "Certification / Attestation Management Software": {}
+      },
+      "Services": {
+        "Consulting & Advisory Services": {},
+        "Implementation & Integration Services": {},
+        "Managed Compliance Services": {},
+        "Training, Support & Maintenance Services": {}
+      }
     },
-    "By Organ Type": {
-      "Liver": {},
-      "Heart": {},
-      "Lung": {},
-      "Kidney": {},
-      "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": {}
+    "By Deployment Mode": {
+      "Cloud": {},
+      "On-Premises": {}
     },
-    "Application / Use Case": {
-      "Organ Preservation": {},
-      "Viability Assessment": {},
-      "Physiologic Transport": {},
-      "Reconditioning Marginal Organs": {},
-      "Others (Research Use / Protocol development)": {}
+    "By Organization Size": {
+      "Small Enterprises": {},
+      "Medium Enterprises": {},
+      "Large Enterprises": {}
     },
-    "By End User": {
-      "Hospitals & Clinics": {},
-      "Specialty Clinic/Centers": {},
-      "Transplant Centers": {},
-      "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": {}
+    "By Industry Vertical": {
+      "BFSI": {
+        "Banking": {},
+        "Insurance": {},
+        "Capital Markets": {},
+        "Fintech": {}
+      },
+      "Healthcare & Life Sciences": {
+        "Hospitals": {},
+        "Pharma & Biotech": {},
+        "Medical Devices": {},
+        "HealthTech": {}
+      },
+      "Technology, Media & Telecom": {
+        "Cloud Service Providers": {},
+        "Telecom Operators": {},
+        "Data Center Providers": {},
+        "Media & Entertainment": {}
+      },
+      "Government & Public Sector": {},
+      "Manufacturing & Industrials": {
+        "Discrete Manufacturing": {},
+        "Process Manufacturing": {}
+      },
+      "Retail, E-commerce & Consumer Goods": {},
+      "Energy & Utilities": {
+        "Power Utilities": {},
+        "Oil & Gas": {},
+        "Renewable Energy": {},
+        "Water Utilities": {}
+      },
+      "Transportation & Logistics": {
+        "Aviation": {},
+        "Maritime": {},
+        "Rail & Road Transport": {}
+      },
+      "Others (Education & EdTech, Professional Services & Real Estate, etc.)": {}
     },
     "By Region": {
       "North America": {

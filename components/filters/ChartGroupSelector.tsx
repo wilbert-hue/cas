@@ -2,12 +2,13 @@
 
 import { useDashboardStore } from '@/lib/store'
 import { CHART_GROUPS, type ChartGroupId } from '@/lib/chart-groups'
-import { BarChart3, Target, type LucideIcon } from 'lucide-react'
+import { BarChart3, Target, Users, type LucideIcon } from 'lucide-react'
 
 // Icon mapping for each chart group
 const iconMap: Record<ChartGroupId, LucideIcon> = {
   'market-analysis': BarChart3,
   'coherent-opportunity': Target,
+  'customer-intelligence': Users,
 }
 
 export function ChartGroupSelector() {
@@ -43,9 +44,21 @@ export function ChartGroupSelector() {
                 className={`w-3 h-3 flex-shrink-0 ${isSelected ? 'text-white' : 'text-black'}`} 
               />
               <span className="text-xs font-medium leading-tight">
-                {group.label === 'Coherent Opportunity Matrix' 
-                  ? <span>Coherent Opportunity<br/>Matrix</span>
-                  : group.label}
+                {group.label === 'Coherent Opportunity Matrix' ? (
+                  <span>
+                    Coherent Opportunity
+                    <br />
+                    Matrix
+                  </span>
+                ) : group.label === 'Customer Intelligence' ? (
+                  <span>
+                    Customer
+                    <br />
+                    Intelligence
+                  </span>
+                ) : (
+                  group.label
+                )}
               </span>
             </button>
           )
