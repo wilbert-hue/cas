@@ -1472,7 +1472,7 @@ export async function processJsonDataAsync(
     
     // Build metadata
     const metadata: Metadata = {
-      market_name: 'Governance, Risk & Compliance Solutions Market',
+      market_name: 'Compilance as a Service Market',
       market_type: 'Market Analysis',
       industry: 'GRC Software & Compliance Services',
       years: allYears,
